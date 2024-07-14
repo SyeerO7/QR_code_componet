@@ -20,7 +20,7 @@ body {
 
 }
 
-.qr-code {
+.main {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,7 +31,7 @@ body {
     padding-bottom: 15px;
 }
 
-.qr-code__img {
+.main__img {
     display: block;
     padding: 16px 16px 8px;
     margin: auto;
@@ -39,31 +39,32 @@ body {
     border-radius: 25px;
 }
 
-.qr-code__h2 {
+.main__h1 {
     color: var(--F-COLOR-HEADING);
     font-weight: 700;
-    width: 300px;
-    margin: 10px auto;
-    padding: 5px;
+    width: 280px;
+    font-size: 22px;
+    margin: 10px auto 5px;
+    padding: 4px;
 }
 
-.qr-code__p {
+.main__p {
     color: var(--F-COLOR);
     width: 260px;
     font-size: 15px;
     font-weight: 400;
-    margin: 10px auto;
-    padding: 5px;
+    margin: 5px auto;
+    padding: 4px;
 }
 
 
-.attribution {
+.contentinfo {
   font-size: 11px;
   position: absolute;
   bottom: 0;
   margin: 0 0 2px 2px;
   
 }
-.attribution a {
+.contentinfo a {
   color: hsl(228, 45%, 44%);
 }
